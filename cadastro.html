@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <form action="acao a ser executada">
+        <fieldset>
+            <legend>Usuário</legend>
+            <label for="I name">Nome:</label>
+            <input id= "I name" name="Em Nome" type="text" placeholder="Digite seu nome">
+            <br>
+            <label for="I Data">
+                Data de Nascimento:
+            </label>
+            <input id="I Data" name="Em Data" type="date">
+            <br>
+            <label for="I email">
+                E-mail:
+            </label>
+            <input id="I email" name="Em email" type="email">
+            <br>
+            <label for="I email">
+                Confirme seu email:
+            </label>
+            <input id="I email" name="Em email" type="email">
+            <br>
+            
+            <label for="isexo">Sexo:</label>
+            <select name="slsexo" id="isexo">  
+              <option value="M">Masculino</option>
+              <option value="F">Femenino</option>
+              <option value="A">Agenero</option>
+            </select>  
+            <br>
+
+            <label for="tipo">Tipo:</label>
+            <br>
+            <input type="radio" name="rtipo" id="iusuario" value="U">
+            <label for="iusuario">Usuário</label>
+            <br>
+            <input type="radio" name="rtipo" id="iadmin"  value="A">
+            <label for="iadmin">Admin</label>
+            <br>
+            
+            <label for="ifale">Fale sobre voçe:</label>
+            <textarea name="txtfale" id="ifale" cols="50" rows="20"></textarea>
+
+            <input type="submit"value="ENVIAR">
+            <input type="reset" value="LIMPAR">
+
+
+
+
+        </fieldset>
+    </form>
+</body>
+</html>

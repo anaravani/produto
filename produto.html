@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="pt-br">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produto</title>
+</head>
+<body>
+    <form action="#">
+        <fieldset>
+            <legend>Produto</legend>
+            <label for="I produto">Produto:</label>
+            <input id= "I produto" name="Em produto" type="text">
+            <br>
+            <label for="I Data">
+                Data de Cadastro:
+            </label>
+            <input id="I Data" name="Em Data" type="date">
+            <br>
+            <label for="I peso">Peso:</label>
+            <input type="number" name="em peso" id="I peso">
+            <br>
+            <label for="isexo">Categoria:</label>
+            <select name="slcategoria" id="icategoria">  
+              <option value="M">Móveis</option>
+              <option value="E">Eletrônicos</option>
+            </select>  
+            <br>
+            <label for="i tipo">Tipo:</label>
+            <br>
+            <input type="radio" name="rtipo" id="inovo" value="N">
+            <label for="inovo">Novo</label>
+            <br>
+            <input type="radio" name="rtipo" id="iusado"  value="U">
+            <label for="iusado">Usado</label>
+            <label for="i descricao">Descrição:</label>
+            <br>
+            <textarea name="txtdescricao" id="idescreva" cols="50" rows="20"></textarea>
+            <br>
+            <label for="i avalie">Avaliação (0-10) </label>
+            <input type="range" name="ravalie" id="avaliação">
+            <br>
+            <input type="submit"value="ENVIAR">
+            <input type="reset" value="LIMPAR">
+        </fieldset>
+
+
+    </form>
+</body>
+</html>
